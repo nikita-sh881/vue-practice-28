@@ -59,10 +59,10 @@ export default {
 }
 .user-card.admin {
  border-color: #ff6b6b;
- background-color: #fff5f5;
+ background-color: #000000;
 }
 .user-card.user {
  border-color: #4ecdc4;
- background-color: #f0fff4;
+ background-color: #000000;
 }
 </style>
