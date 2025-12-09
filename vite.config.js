@@ -16,5 +16,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/vue-practice-27/',
+  base: '/vue-practice-28/',
 })
