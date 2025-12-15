@@ -2,18 +2,16 @@
  <div>
  <h2>Список пользователей</h2>
 
- <!-- Передаем данные через пропсы -->
  <UserCard
  :user="adminUser"
  :is-active="true"
  @user-clicked="handleUserClick"
  >
- <!-- Именованный слот -->
+
  <template #actions>
  <button @click="editUser(adminUser)">Редактировать</button>
  </template>
 
- <!-- Слот по умолчанию -->
  <p>Администратор системы</p>
  </UserCard>
 
